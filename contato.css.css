@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFD173; 
+    height: 10vh;
+}
+
+.barra {
+    font-size:x-large;
+    font-weight: 600;
+    color: rgba(37, 38, 39, 1);
+}
+
+.icone-poke img {
+    padding-top: 70px;
+    max-width: 100px;
+}
+
+.site-navigation {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.site-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation ul li a {
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+    font-weight: 900;
+    font-size:15px;
+    text-decoration: none;
+
+}
+
+.site-navigation ul li a:hover {
+    text-decoration:none;
+}
+
+#saida{
+    font-size:x-large;
+    font-weight: 600;
+    color: rgba(37, 38, 39, 1);
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+#contato{
+    padding-left: 60px;
+}
+
+#informaçoes{
+    padding-left: 100px;
+    display:inline-flex;
+    }
+
+#informaçoes input{
+    text-decoration: none;
+    border: 0;
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+   background-color: rgba(84, 194, 219, 1);
+}    
+
+.textbox-contato{
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+    font-weight: 900;
+    font-size:12px;
+    padding-top: 20px;
+   
+
+}
+
+.textbox-contato textarea{
+margin: 30px auto;
+height: 300px;
+width: 700px;
+font-family:"Inter", sans-serif;
+color: rgba(37, 38, 39, 1);
+font-weight: 900;
+font-size:12px;
+text-decoration: none;
+border: none;
+border-radius: 10px;
+background-color:rgba(84, 194, 219, 1) ;
+padding-top: 20px;
+}
+
+#placeholder-text::placeholder{
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+    font-weight: 900;
+    font-size:12px;
+    padding-left: 20px;
+}
+
+
+
+.grid-template {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    display: grid;
+    grid-template:
+		"sidenav content " 273px
+		"sidenav footer " 260px
+		/ 1fr 1fr ;
+    color: aqua;
+    gap: 5px;
+
+}
+
+.button-enviar {
+    background-color: rgba(121, 192, 89, 1);
+    border: none;
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+    font-weight: 900;
+    font-size:12px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    width: 100px;
+}
+
+.button-enviar a{
+    text-decoration: none;
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+
+}
+
+.button-enviar:hover {
+    background-color: rgb(93, 148, 68); 
+}
+
+footer{
+    background-color:#FFD173;
+    height: 20vh;
+    margin-top: 80px;
+}
+
+#rodape{
+    display: flex;
+}
+#rodape img{
+  height: 100px;
+  width: 90;
+  padding-top: 30px;
+  padding-left: 30%;
+}
+
+#rodape i{
+    padding-top: 90px;
+    padding-left: 10px;
+}
+
+#paragrafos{
+    display: block;
+    font-family:"Inter", sans-serif;
+    color: #252627;
+    font-weight: 900;
+    font-size:12px;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}

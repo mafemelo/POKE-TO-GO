@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFD173; 
+    height: 10vh;
+}
+
+.barra {
+    font-size:x-large;
+    font-weight: 600;
+    color: rgba(37, 38, 39, 1);
+}
+
+.icone-poke img {
+    padding-top: 70px;
+    max-width: 100px;
+}
+
+.site-navigation {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.site-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation ul li a {
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+    font-weight: 900;
+    font-size:15px;
+    text-decoration: none;
+
+}
+
+.site-navigation ul li a:hover {
+    text-decoration:none;
+}
+
+#saida{
+    font-size:x-large;
+    font-weight: 600;
+    color: rgba(37, 38, 39, 1);
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.grid-columns {
+    margin-top: 30px;
+    margin-left: 15%;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.grid-columns p{
+    font-family:"Inter", sans-serif;
+    color: rgba(37, 38, 39, 1);
+    font-weight: 900;
+    font-size:12px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    
+}
+
+footer{
+    background-color:#FFD173;
+    height: 20vh;
+    margin-top: 80px;
+}
+
+#rodape{
+    display: flex;
+}
+#rodape img{
+  height: 100px;
+  width: 90;
+  padding-top: 30px;
+  padding-left: 30%;
+}
+
+#rodape i{
+    padding-top: 90px;
+    padding-left: 10px;
+}
+
+#paragrafos{
+    display: block;
+    font-family:"Inter", sans-serif;
+    color: #252627;
+    font-weight: 900;
+    font-size:12px;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
